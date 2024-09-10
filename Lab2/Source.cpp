@@ -7,13 +7,14 @@
 	*/
 
 #include <iostream>
-#include "Sphere.h"
+#include "Cylinder.h"
 
 int main()
 {
-	Sphere s;
-	s.setRadius(5);
-	std::cout << "The volume of the sphere is: " << s.calculateVolume() << std::endl;
+	Cylinder s;
+	s.setRadius(3);
+	s.setHeight(6);
+	std::cout << "The volume of the Cylinder is: " << s.calculateVolume() << std::endl;
 
 	return 0;
 }
